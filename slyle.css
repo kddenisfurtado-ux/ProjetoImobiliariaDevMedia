@@ -1,1 +1,24 @@
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
 
+h2 {
+    font-weight: normal;
+    color: #1c81c0;
+    margin-top: 0;
+}
+
+
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+.imagem{
+    width: 450px;
+}
+
+.servicos, .contato {
+    background-color: #1d80c1;
+}
