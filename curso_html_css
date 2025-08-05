@@ -302,3 +302,42 @@ p {
 .img-bandeira-idioma {
     width: 30px;
 }
+
+==========================================================================================================================================
+Normalmente o fundo é aplicado dentro do <body> </boddy> para que seja possivel pegar a pagina inteira.
+Se for para aplicar a imagem como fundo em uma parte específica usar a <div> </div> para isso.
+
+background-color: #696969; altera a cor
+background-image: url ('img/img-fundo.jpg); insere imagem como plano de fundo
+background-repeat: repeat; * para repetir a imagem
+background-repeat: no-repeat; * para não repetor
+background-repeat: repeat-y * para repetir a imagem na vertical
+background-repeat: repeat-x * para repetir a imagem na horizonta
+background-position: 10xp;
+background-position: rigth; à direita
+background-position: center; no centro
+background-position: left; à esquerda
+background-position: top; na parte superior da pagina
+background-position: bottom; na parte intefior
+background-position: top;
+background-position: center;
+background-position: bottom;
+background-position: right top;
+background-position: right center;
+background-position: right bottom;
+background-position: center top;
+background-position: center center;
+background-position: center bottom;
+bachground-size: 100px;
+bachground-size: cover; vai ocupar todo o espaço destinado na <div> mesmo que a imagem tenha um tamanho maior, absorvendo assim o tamanho do quadro da <div>
+bachground-size: contain; ajusta o elemento até a borda horizontal no estilo justificado, sem preder qualidade
+bachground-size: 50% 70%; asso, deterina o tamanho no eixo X e Y dizendo que do quadro será ocupado X % de cada eixo
+bachground-size: 50px 70px; pega a imagem e determina a proporcionalidade (LARGURA x ALTURA) 
+background-attachment: fixed; para deixar a imagem fixa no plano de fundo, assim tudo rola na pagina menos a imagem.
+
+https://www.devmedia.com.br/view/viewaula.php?idcomp=43296
+aula detalhada sobre o EFEITO PARALAX
+
+
+
+
